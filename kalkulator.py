@@ -1,4 +1,9 @@
-def dodawanie():
-a= int(input('Podaj pierwsza liczbe'))
-b=int (input('Podaj pierwsza liczbe'))
-print (a+b)
+def dodawanie(a,b):
+ wynik= a +b
+ 
+ def get_help():
+  print('To jest prosty program kalkulatora. Wprowadz 2 liczby i zatwierdz')
+ 
+ get_help()
+ 
+dodawanie()
